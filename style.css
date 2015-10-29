@@ -1,0 +1,207 @@
+body {
+	background-color: #221111;
+	font-family: 'Trebuchet MS', sans-serif;
+	color: white;
+}
+
+#vid {
+	z-index: -1000;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+/* taken from http://slicejack.com/creating-a-fullscreen-html5-video-background-with-css/ */
+
+@media (min-aspect-ratio: 16/9) {
+	#vid {
+		width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-aspect-ratio: 16/9) {
+	#vid {
+		width: auto;
+		height: 100%;
+	}
+}
+
+/* ############################## */
+
+#logo {
+	position: fixed;
+	top: 1%;
+	left: 1%;
+	width: 160px;
+}
+
+#apply {
+	color: white;
+	position: fixed;
+	top: 1%;
+	right: 1%;
+	font-size: 25px;
+	background-color: #ea9f53;
+	border: 2px solid white;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+}
+
+#arrow {
+	position: fixed;
+	top: 50%;
+	right: 1%;
+	opacity: 60%;
+	z-index: 1000;
+	width: 47px;
+	height: 47px;
+}
+
+center {
+	vertical-align: middle;
+}
+
+h1 {
+	margin-top: 130px;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+.floatright {
+	float: right;
+}
+
+#quotes {
+	position: relative;
+	width: 100%;
+}
+
+.quote {
+	display: relative;
+	font-style: italic;
+	font-weight: lighter;
+	background: rgba(42,42,42,0.6);
+	border: 1px solid #808080;
+	border-radius: 3px;
+	padding: 10px 50px;
+	padding-bottom: 20px;
+	width: 50%;
+	margin-bottom: 5px;
+}
+
+.quotemark {
+	color: #E67E22;
+	position: relative;
+	font-size: 72px;
+}
+
+.quote .quotemark:first-child {
+	float: left;
+	margin-left: -40px;
+}
+
+.quote .quotemark:last-child {
+	float: right;
+	margin-right: -40px;
+}
+
+.left {
+	left: 0%;
+}
+
+.middle {
+	left: 33%;
+}
+
+.right {
+	right: 0%;
+}
+
+#quotes img {
+	border-radius: 50%;
+	width: 50px;
+	text-align: center;
+}
+
+#quotes td {
+	vertical-align: text-top;
+}
+
+.name {
+	position: relative;
+	bottom: 20px;
+}
+
+#questions {
+	position: fixed;
+	bottom: 1%;
+	left: 1%;
+	width: 48px;
+	height: 48px;
+	border-radius: 50%;
+	font-family: Arial;
+	color: white;
+	font-size: 44px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #E67E22;
+	border: 1px solid white;
+}
+
+#dots {
+	position: fixed;
+	bottom: 1%;
+	left: calc(50% - 65px);
+}
+
+.circle {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+
+#blue {
+	border-color: #377EA2;
+	border-width: 2px;
+	width: 8px;
+	height: 8px;
+}
+
+#plus {
+	position: fixed;
+	bottom: 1%;
+	right: 1%;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	color: grey;
+	font-size: 44px;
+	text-align: center;
+	border: 1px solid white;
+}
+
+#plus span {
+	position: relative;
+	bottom: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
